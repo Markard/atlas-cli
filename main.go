@@ -1,6 +1,7 @@
 package main
 
 import (
+	"atlas-cli/cmd"
 	"atlas-cli/pkg/logger"
 	"fmt"
 	"github.com/joho/godotenv"
@@ -22,6 +23,11 @@ func main() {
 	}
 	defer logFile.Close()
 	slog.SetDefault(setupPrettySlog(logFile))
+
+	errExec := cmd.Execute()
+	if errExec != nil {
+		os.Exit(1)
+	}
 }
 
 func setupPrettySlog(logFile *os.File) *slog.Logger {
