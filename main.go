@@ -1,9 +1,9 @@
 package main
 
 import (
-	"atlas-cli/cmd"
-	"atlas-cli/pkg/logger"
 	"fmt"
+	"github.com/Markard/atlas-cli/cmd"
+	"github.com/Markard/atlas-cli/pkg/logger"
 	"github.com/joho/godotenv"
 	"io"
 	"log/slog"

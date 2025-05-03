@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"atlas-cli/internal/getspacekeys/entity"
-	"atlas-cli/internal/getspacekeys/repo"
+	"github.com/Markard/atlas-cli/internal/getspacekeys/entity"
+	"github.com/Markard/atlas-cli/internal/getspacekeys/repo"
 	"github.com/spf13/cobra"
 	"log/slog"
 	"os"

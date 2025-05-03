@@ -1,10 +1,10 @@
 package repo
 
 import (
-	"atlas-cli/internal/uploadwls/entity"
 	"context"
 	"errors"
 	"fmt"
+	"github.com/Markard/atlas-cli/internal/uploadwls/entity"
 	"github.com/ctreminiom/go-atlassian/v2/jira/v3"
 	"github.com/ctreminiom/go-atlassian/v2/pkg/infra/models"
 	"github.com/ztrue/tracerr"

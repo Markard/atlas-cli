@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	getspacekeysctrl "atlas-cli/internal/getspacekeys/controller"
-	uploadwlsctrl "atlas-cli/internal/uploadwls/controller"
+	getspacekeysctrl "github.com/Markard/atlas-cli/internal/getspacekeys/controller"
+	uploadwlsctrl "github.com/Markard/atlas-cli/internal/uploadwls/controller"
 	"github.com/spf13/cobra"
 )
 

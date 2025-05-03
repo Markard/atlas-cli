@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"atlas-cli/internal/uploadwls/entity"
-	repo2 "atlas-cli/internal/uploadwls/repo"
 	"context"
 	"fmt"
+	"github.com/Markard/atlas-cli/internal/uploadwls/entity"
+	repo2 "github.com/Markard/atlas-cli/internal/uploadwls/repo"
 	"github.com/spf13/cobra"
 	"log/slog"
 	"os"

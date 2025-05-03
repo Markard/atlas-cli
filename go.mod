@@ -1,4 +1,4 @@
-module atlas-cli
+module github.com/Markard/atlas-cli
 
 go 1.24
 

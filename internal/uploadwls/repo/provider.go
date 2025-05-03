@@ -1,9 +1,9 @@
 package repo
 
 import (
-	"atlas-cli/internal/uploadwls/entity"
 	"errors"
 	"fmt"
+	"github.com/Markard/atlas-cli/internal/uploadwls/entity"
 	"github.com/go-playground/validator/v10"
 	"gopkg.in/yaml.v3"
 	"os"

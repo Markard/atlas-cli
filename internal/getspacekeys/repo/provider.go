@@ -1,10 +1,10 @@
 package repo
 
 import (
-	"atlas-cli/internal/getspacekeys/entity"
 	"context"
 	"errors"
 	"fmt"
+	"github.com/Markard/atlas-cli/internal/getspacekeys/entity"
 	"github.com/ctreminiom/go-atlassian/confluence/v2"
 	"github.com/ctreminiom/go-atlassian/pkg/infra/models"
 	"github.com/ztrue/tracerr"
