@@ -33,6 +33,14 @@ worklogs:
 - `issue_key`: The Jira issue key (optional). Only logs with this key will be uploaded.
 - Other fields (`started_at`, `ended_at`, `comment`) are required.
 
+### 2. Retrieve Information About Confluence Spaces
+
+_Fetch all spaces in your Confluence instance, displaying their - names and space keys._
+
+`go run main.py sk [-b --batchSize=123]`
+
+- `-b --batchSize`: Number of spaces to retrieve per page (default: 100).
+
 ## Installation
 
 1. Get your API token: [Atlassian API Tokens](https://id.atlassian.com/manage-profile/security/api-tokens)

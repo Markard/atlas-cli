@@ -3,6 +3,7 @@ module atlas-cli
 go 1.24
 
 require (
+	github.com/ctreminiom/go-atlassian v1.6.1
 	github.com/ctreminiom/go-atlassian/v2 v2.3.1
 	github.com/fatih/color v1.18.0
 	github.com/go-playground/validator/v10 v10.26.0
@@ -19,6 +20,7 @@ require (
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect

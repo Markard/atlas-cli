@@ -1,7 +1,8 @@
 package cmd
 
 import (
-	"atlas-cli/internal/uploadwls/controller"
+	getspacekeysctrl "atlas-cli/internal/getspacekeys/controller"
+	uploadwlsctrl "atlas-cli/internal/uploadwls/controller"
 	"github.com/spf13/cobra"
 )
 
@@ -13,7 +14,8 @@ var rootCmd = &cobra.Command{
 }
 
 func init() {
-	rootCmd.AddCommand(controller.Cmd)
+	rootCmd.AddCommand(uploadwlsctrl.Cmd)
+	rootCmd.AddCommand(getspacekeysctrl.Cmd)
 }
 
 func Execute() error {
